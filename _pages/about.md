@@ -17,25 +17,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
- Hi, thereðŸ‘‹. Welcome to my Github. My name is Bong-oh, Moon from South Korea. I am studying undergraduate of Software-engineering and working as AWS Educate Student Ambassador at Jeonbuk National University in South Korea. I like to study overall software technology, framework and computer science. I love PS(Problem Solving)!
+ Hello (¡Ü'?'¡Ü). Welcome to my Github. My name is SeoYeon, Go from South Korea. I am studying undergraduate of Software-engineering.
 <!-- Currently, I'm interested in web or application development, especially front-end development such as React or React Native.  -->
 
-### ðŸ”­ I'm Currently interested in
+### ? I'm Currently interested in
 
-- Computer Science, especially Algorithms
-- Software Engineering
-- Javascript / Typescript
-- React / React Native
-- AWS Educate Student Ambassador
+- Web.
+- application development.
+- cpp
+- Algorithm
+- data structure
 
-### ðŸ“« How to reach me
+### ? How to reach me
 
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:moonbonoz@gmail.com)](mailto:moonbonoz@gmail.com)
+[![Gmail Badge]](mailto:tjduscn334@gmail.com)
 
-### ðŸ“ƒ My Public Github Stats  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbonomoon)](https://hits.seeyoufarm.com)
-
-
-![](https://github-readme-stats.vercel.app/api?username=bonomoon&show_icons=true&hide_border=False)
 
 ---
 
