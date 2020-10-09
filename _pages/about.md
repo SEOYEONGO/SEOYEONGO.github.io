@@ -29,8 +29,7 @@ social: true  # includes social icons at the bottom of the page
 - data structure
 
 ### How to reach me
-
-[![Gmail Badge]](mailto:tjduscn334@gmail.com)
+- mail:tjduscn334@gmail.com
 
 
 ---
