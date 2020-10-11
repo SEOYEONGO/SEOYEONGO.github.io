@@ -15,12 +15,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
- Hello. Welcome to my Github. My name is SeoYeon, Go from South Korea. I am studying undergraduate of Software-engineering.
+ Hello👋. Welcome to my Github-Blog. My name is SeoYeon Go, I from South Korea. I am studying undergraduate of Software-engineering.
 <!-- Currently, I'm interested in web or application development, especially front-end development such as React or React Native.  -->
 
-### 📄 Here is My CV
-(/assets/pdf/Resume/Resume.pdf)
 
+### 📄 Here is My CV [click me](Resume.pdf)
+    
+    
+### 🌱 I’m currently learning
+    - cpp
+    - web
+    
+    
 ### 📌 I'm Currently interested in
 - Web.
 - application development.
@@ -29,13 +35,12 @@ social: true  # includes social icons at the bottom of the page
 - data structure
 
 
+
 ### 💌 How to reach me
-- mail: tjduscn334@gmail.com
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tjduscn334@gmail.com)](mailto:tjduscn334@gmail.com)
+- mail: ![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tjduscn334@gmail.com)](mailto:tjduscn334@gmail.com)
+
 
 ### 🔥 My Github Stats
-![] (https://github-readme-stats.vercel.app/api?username=seoyeongo&show_icons=true&hide_border=False)
----
-
+![](https://github-readme-stats.vercel.app/api?username=seoyeongo&show_icons=true&hide_border=False)
 ---
 
