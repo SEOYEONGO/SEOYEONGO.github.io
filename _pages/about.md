@@ -19,6 +19,7 @@ social: true  # includes social icons at the bottom of the page
 <!-- Currently, I'm interested in web or application development, especially front-end development such as React or React Native.  -->
 
 ### 📄 Here is My CV
+(/assets/pdf/Resume/Resume.pdf)
 
 ### 📌 I'm Currently interested in
 - Web.
