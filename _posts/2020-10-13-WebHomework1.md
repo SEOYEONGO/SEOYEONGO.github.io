@@ -51,14 +51,14 @@ Gem 또한 저런 시스템들과 마찬가지로 명령만 내리면 인터넷�
 
 따라서 레일스 프로젝트로 웹서비스를 제작할때 다른 gem들을 활용해 더 멋진 기능을 가진 웹사이트를 만들게 되는 것입니다!
 
->출처: ![https://ideveloper2.tistory.com/80](https://ideveloper2.tistory.com/80)
+>출처: https://ideveloper2.tistory.com/80
 
 
 ### 3. jekyll
 
 Jekyll은 여러(특히 마크다운) 형태의 텍스트와 테마를 소스로 하여 정적 HTML 웹사이트를 제너레이트하는 툴이다. Ruby 스크립트로 만들어져 있으나, 블로그를 만드는 데에는 루비를 전혀 몰라도 된다. 워드프레스를 사용하여 블로그를 만드는 노력이면 워드프레스보다 훨씬 더 빠르고 보안에도 뛰어난 블로그를 깃허브에 무료로 만들 수 있고, 별도의 페이지를 만들기도 쉽다. 또한, HTML과 CSS에 대한 약간의 지식만 있으면 페이지는 물론 각 포스트마다 다른 레이아웃을 줄 수도 있다.
 
->출처: ![https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
+>출처: https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/
 
 
 ### 4. bundler
@@ -68,7 +68,7 @@ Jekyll은 여러(특히 마크다운) 형태의 텍스트와 테마를 소스로
 
 번들러를 사용하면 개발, 스테이징, 프로덕션 기기에서의 코드 공유가 쉬워집니다. 당연히 애플리케이션이나 gem을 공유하는 방법을 아시겠지만, GitHub에 붙여넣고 필요한 곳에서 클론하시면 됩니다. 번들러는 애플리케이션이 에러 없이 켜지고 실행하는데 필요한 의존성을 해결하는 일을 쉽게 합니다.
 
->출처: ![https://ruby-korea.github.io/bundler-site/v1.5/](https://ruby-korea.github.io/bundler-site/v1.5/)
+>출처: https://ruby-korea.github.io/bundler-site/v1.5/
 
 
 ### 5. msys & minGW
@@ -82,14 +82,14 @@ MinGW = "Minimalist GNU for Windows"
 
 MSYS = "Minimal SYStem", is a Bourne Shell command line interpreter system.
 
->출처: ![https://m.blog.naver.com/PostView.nhn?blogId=adapriest&logNo=220640049556&proxyReferer=https:%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.nhn?blogId=adapriest&logNo=220640049556&proxyReferer=https:%2F%2Fwww.google.com%2F)
+>출처: https://m.blog.naver.com/PostView.nhn?blogId=adapriest&logNo=220640049556&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 
 ### 6. ridk
 
 RubyInstaller-2.4 이상의 런타임 환경을 관리하는 도우미 도구입니다. cmd 및 powershell에서 사용할 수 있습니다.
 
->출처: ![https://smartbase.tistory.com/42](https://smartbase.tistory.com/42)
+>출처: https://smartbase.tistory.com/42
   
   
 ### 7. github pages
@@ -105,7 +105,7 @@ RubyInstaller-2.4 이상의 런타임 환경을 관리하는 도우미 도구입
 
 - 원래 gcc는 C만을 지원하였던 컴파일러라고 합니다, 이름 역시 "GNU C Compiler" 였다고 하는군요. 하지만 시간이 흐른 후에 Java, C++, 포트란, 에이다 C#, android 등등 여러 언어들을 컴파일 할 수 있게 되면서 현재의 이름도 변경되었다고 합니다.
 
->출처: ![https://splug.tistory.com/170](https://splug.tistory.com/170)
+>출처: https://splug.tistory.com/170
 
 
 ### 9. gnu   GNU/리눅스
@@ -114,7 +114,7 @@ RubyInstaller-2.4 이상의 런타임 환경을 관리하는 도우미 도구입
 
 운영체제의 가장 중요한 부분이 바로 커널입니다, GNU/리눅스 시스템에서 리눅스는 커널 부분을 말합니다. 시스템의 나머지 부분은 기타 프로그램으로 구성되며, GNU 프로젝트가 많은 부분을 개발했습니다. 리눅스 커널 그 자체만으로는 시스템을 구성할 수 없기 때문에, 우리는 흔히 리눅스라고 호칭하는 시스템을 GNU/리눅스라는 이름으로 사용합니다.
 
->출처: ![https://www.debian.org/releases/jessie/mips/ch01s02.html.ko](https://www.debian.org/releases/jessie/mips/ch01s02.html.ko)
+>출처: https://www.debian.org/releases/jessie/mips/ch01s02.html.ko
 
 
 ### 10. gpp
@@ -123,7 +123,7 @@ RubyInstaller-2.4 이상의 런타임 환경을 관리하는 도우미 도구입
 
 Serif은(는) Serif DrawPlus 소프트웨어 시리즈를 위해 Guitar Practiced Perfectly 2 Data File(GPP) 파일을 개발했습니다. 일반적으로 Guitar Practiced Perfectly 2 Data File 파일은 United States의 사용자 컴퓨터와 Windows 10 운영 체제를 실행하는 PC에서 발견됩니다. 이 사용자들의 대부분은 기본 인터넷 브라우저를 Google Chrome로 사용하기를 선택했습니다.
 
->출처: ![https://www.fileviewpro.com/ko/file-extension-gpp/](https://www.fileviewpro.com/ko/file-extension-gpp/)
+>출처: https://www.fileviewpro.com/ko/file-extension-gpp/
 
 
 ### 11. shell script
@@ -142,7 +142,7 @@ Serif은(는) Serif DrawPlus 소프트웨어 시리즈를 위해 Guitar Practice
 
 > 각각의 스크립트 언어들은 문법이 모두 다르기 때문에 호환되지 않는다. 또한 실행파일을 만들때 작성되는 C언어와도 다르다. 
 
->출처: ![https://naltaengi.tistory.com/18](https://naltaengi.tistory.com/18)
+>출처: https://naltaengi.tistory.com/18
 
 
 --- 
