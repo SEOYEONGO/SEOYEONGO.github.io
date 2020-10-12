@@ -1,5 +1,11 @@
-# Learn GitHub
 ---
+layout: post
+title: GitHub 용어 & 깃허브 작업 흐름을 정리해 보자.
+---
+
+# Learn GitHub
+
+
 **기본 명령어**
   - `$ pwd`     // 현재 위치의 경로 표시
   - `$ ls`        // 현재 디렉터리에 어떤 파일이나 디렉터리가 있는지 확인
