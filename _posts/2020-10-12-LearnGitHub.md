@@ -32,6 +32,8 @@ title: GitHub 용어 & 깃허브 작업 흐름을 정리해 보자.
 - `$ cat 파일1`                                         // 파일의 내용을 화면에 표시함.
 - `$ cat 파일1, 파일2 ... 파일n > 새 파일`        // 파일 n개를 차례로 연결해서 새로운 파일을 만듦.
 - `$ cat 파일1 >> 파일2`                            // 파일1의 내용을 파일 2 끝에 연결.
+
+
 ---
 # Understand Git
 ---
@@ -89,6 +91,10 @@ title: GitHub 용어 & 깃허브 작업 흐름을 정리해 보자.
   + 스테이징 되돌리기 - `$ git reset HEAD 파일 이름`
   + 최신 커밋 되돌리기 - `$ git reset HEAD^    // 커밋 취소, unstaged`
 
+
+
+--
+
 ---
 # Backup with GitHub
 ---
@@ -115,10 +121,18 @@ title: GitHub 용어 & 깃허브 작업 흐름을 정리해 보자.
 `$ git pull origin master`
 ##### SSH 원격 접속 
 
+
+
+--
+
+
 ---
 # Collaborate with GitHub
 ---
 
+
+
+--
 
 
 
