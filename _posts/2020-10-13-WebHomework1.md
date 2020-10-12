@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wep 공부를 하며 새롭게 알게 된 용어들을 정리해보자.
+title: Web 공부를 하며 새롭게 알게 된 용어들을 정리해보자.
 ---
 
 ## web-blog project를 하며 알게된 용어 정리.
