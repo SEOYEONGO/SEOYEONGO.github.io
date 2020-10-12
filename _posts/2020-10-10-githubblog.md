@@ -121,9 +121,9 @@ _config.yml 파일을 자신의 환경에 맞게 수정했다면 `bundle exec je
 **로컬서버에서 실행 시켜보자.**
 `bundle exec jekyll serve` 은 로컬에서 자신의 소스코드를 빌드하고 서버 위에 실행시키는 것!
 
-master에서 수정사항을 변경 후, add, commit, push한 후 (push는 안해도 'bundle exec jekyll serve'는 잘 돌아가겠지만, 차피 push를 해야하니...)
-
 ⭐ 빌드는 master에서! 배포는 gh-pages 브랜치에서! ⭐
+
+master에서 수정사항을 변경 후, add, commit, push한 후 
 
 깃 배쉬에서 `bundle exec jekyll serve` 입력 후 <Enter>.
 
@@ -151,6 +151,8 @@ gh-pages 브랜치에서 master 의 내용을 병합하자.
 ⭐ 빌드는 master에서! 배포는 gh-pages 브랜치에서! ⭐
 
 배포하는 방법은 간단하다. 
+
+깃 배쉬에서 
 
 기본 폴더에 위치한 채로
 
