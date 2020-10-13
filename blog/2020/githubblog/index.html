@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>SeoYeon  Go | Github page 기능을 이용해 깃허브 블로그를 만들어보자</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/blog/2020/githubblog/">
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://SEOYEONGO.github.io/">
+       <span class="font-weight-bold">SeoYeon</span>   Go
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Github page 기능을 이용해 깃허브 블로그를 만들어보자</h1>
+    <p class="post-meta">October 10, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <h3 id="github-page-기능을-이용해-깃허브-블로그를-만드는-방법을-정리해보겠다">Github page 기능을 이용해 깃허브 블로그를 만드는 방법을 정리해보겠다.</h3>
+<p>–</p>
+<h4 id="content">content</h4>
+<ol>
+  <li>GitHub Pages 기능을 사용해 보자.</li>
+  <li>사용자와 프로젝트를 위한 페이지</li>
+  <li>Jekyll과 페이지</li>
+</ol>
+
+<p>요즘엔 깃허브(블로그) 포트폴리오를 요구하는 회사가 많다고 한다.</p>
+
+<p>그리고 깃허브 블로그를 하나 파고 거기에 자신만의 TIL(output과 review용), 수행한 프로젝트 등을 올리는 자체가 굉장히 매력적으로 다가왔다. 그래서 깃과 깃허브를 모르는 상태에서 포폴 사이트 하나 만들자는 집념으로 공부해보았다.</p>
+
+<p>+) https://blog.chulgil.me/how-to-make-blog-using-github/</p>
+
+<p>깃허브 블로그를 만들어야 하는 이유가 잘 정리되어 있다.</p>
+
+<p>각설하고.</p>
+
+<hr />
+<h3 id="1-github-pages-기능을-사용해-보자">1. GitHub Pages 기능을 사용해 보자.</h3>
+
+<p>GitHub Pages는 깃허브의 기능 중 하나로, 이 기능을 사용하면</p>
+
+<p>별도의 웹 호스팅 서비스(웹 서버 기능 제공)를 사용하지 않고도 무료로 자기만의 홈페이지를 만들 수 있다.</p>
+
+<p>저장소에 홈페이지 파일을 올린 뒤 저장소의 주소를 그대로 홈페이지 주소로 사용할 수 있는 기능이다.</p>
+
+<p>-그렇기에 레포 이름이 홈페이지 주소로 이름 붙여야 한다!</p>
+
+<p>-이 기능을 사용하면 깃허브 저장소를 웹 서버처럼 활용할 수 있기 때문에 무료로 깃허브의 저장소를 블로그나 홈페이지 공간으로 사용할 수 있다.</p>
+
+<p>(Boostrap 또한 GitHub Pages를 사용해 만든 홈페이지이다.)</p>
+
+<hr />
+<h3 id="2-사용자와-프로젝트를-위한-페이지">2. 사용자와 프로젝트를 위한 페이지</h3>
+<ul>
+  <li>사용자 페이지</li>
+</ul>
+
+<p>사용자 페이지는 페이지만을 위한 특별한 저장소에 저장한다. 이 저장소의 이름은 계정 이름을 사용한다. 만약 계정이 dogfeet라면 이 조직을 위한 저장소의 이름은 <strong>dogfeet/dogfeet.github.io</strong> 이 된다.</p>
+
+<p>저장소의 이름은 반드시 <strong>username/username.github.com</strong>의 구조를 가진다.
+master 브랜치의 내용이 곧 페이지에서 보이는 내용이다.
+알아둘 것: 사용자 페이지의 저장소는 반드시 그 자신의 계정 이름밖에 사용하지 못한다. 다시 말해서 joe/bob.github.com식의 저장소는 페이지로 작동하지 않는다.</p>
+
+<ul>
+  <li>프로젝트 페이지</li>
+</ul>
+
+<p>사용자 페이지와는 다르게 프로젝트 페이지는 그 프로젝트의 저장소를 그대로 사용한다. (새로 저장소를 만들 필요 없다.) 그렇게 만들어진 페이지는 몇 가지를 제외하고 사용자 페이지와 완전히 똑같다.</p>
+
+<p>페이지를 만들거나 퍼블리싱 할 때에 gh-pages 브랜치를 사용한다.</p>
+
+<p>커스텀 도메인을 사용하지 않으면 프로젝트 페이지는 사용자 페이지의 서브 경로로 제공된다. 주소는 username.github.com/projectname의 형태를 띈다.</p>
+
+<p>커스텀 404 에러 페이지를 사용하려면 커스텀 도메인을 사용해야 한다. 커스텀 도메인을 사용하지 않으면 사용자 페이지의 404 에러 페이지를 사용하게 된다.</p>
+
+<ul>
+  <li>자동으로 페이지 만들기</li>
+</ul>
+
+<p>프로젝트나 사용자의 페이지를 빠르게 만들려면 GitHub에서 제공하는 페이지 제작 도구를 이용한다.</p>
+
+<ul>
+  <li>사용자 페이지</li>
+</ul>
+
+<p>사용자 페이지를 만들려면 우선 username.github.com이나 orgname.github.com이란 이름의 저장소를 만들어야 한다. 물론 여기서 username이나 orgname은 자기 자신의 github계정 이름이어야 한다. 그렇지 않으면 페이지는 만들어지지 않는다. 저장소의 admin 페이지에 가면 제작 도구를 사용할 수 있다.</p>
+
+<ul>
+  <li>프로젝트 페이지</li>
+</ul>
+
+<p>모든 프로젝트 저장소에서 페이지를 만들고 퍼블리싱 할 수 있다. 하지만 주의할 것은 비공개 저장소에서 만든 페이지는 공개 페이지가 된다. (비공개 페이지를 만들 수 없다.)</p>
+
+<ul>
+  <li>수동으로 페이지 만들기
+쉽게 하는 방법에는 오픈소스를 포크해서 수정하거나 (jekyll 이용) / 오픈 소스를 클론해서 수정하는 방법이 있다.</li>
+</ul>
+
+<hr />
+<h3 id="3-jekyll과-페이지">3. Jekyll과 페이지</h3>
+
+<p>일반적인 HTML 컨텐츠를 지원하는 차원에서 GitHub의 페이지는 Jekyll을 지원한다.  Jekyll은 여러(특히 마크다운) 형태의 텍스트와 테마를 소스로 하여 정적 HTML 웹사이트를 제너레이트하는 툴이다. Ruby 스크립트로 만들어져 있으나, 블로그를 만드는 데에는 루비를 전혀 몰라도 된다. 워드프레스를 사용하여 블로그를 만드는 노력이면 워드프레스보다 훨씬 더 빠르고 보안에도 뛰어난 블로그를 깃허브에 무료로 만들 수 있고, 별도의 페이지를 만들기도 쉽다. 또한, HTML과 CSS에 대한 약간의 지식만 있으면 페이지는 물론 각 포스트마다 다른 레이아웃을 줄 수도 있다.</p>
+
+<p><strong>Jekyll 사용하기</strong></p>
+
+<p>GitHub의 모든 페이지는 Jekyll로 돌아간다. 일반 HTML 파일 또한 유효한 Jekyll 사이트이기 때문에 이미 가지고 있던 HTML 파일들을 수정하지 않아도 된다. 그냥 전부 HTML 파일이면 괜찮다. README에 Jekyll의 기능들과 그 사용법이 적혀있다.</p>
+
+<p><strong>Jekyll 설정하기</strong></p>
+
+<p>여러 지킬 테마를 참고하여 <strong>1. 다른 오픈 소스 레포를 포크</strong> 하든, <strong>2. 다른 오픈 소스를 클론해서 자신의 레포에 복붙</strong> 으로 데려오자.</p>
+
+<p>❗ 복붙할 때 주의점</p>
+
+<p>오타 하나라도 나면 블로그가 제대로 동작하지 않으니 주의하자!</p>
+
+<blockquote>
+  <p>나 같은 경우 index.html 파일에 ‘+’하나가 잘못 들어가있어서 블로그가 잘 동작하지 않았다. 주의하자.</p>
+</blockquote>
+
+<p>✅
+_config.yml 파일에 Jekyll의 대부분의 설정이 다 들어있다.</p>
+
+<p>_config.yml 파일에 들어가서 <strong>name과 description, footer links의 url 부분은 꼭 수정</strong>하도록 하자.</p>
+
+<hr />
+<h3 id="4-배포하기-deploy">4. 배포하기. (deploy)</h3>
+
+<p>_config.yml 파일을 자신의 환경에 맞게 수정했다면 <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> 와 <code class="language-plaintext highlighter-rouge">./bin/deploy</code> 를 해야한다.</p>
+
+<p><strong>빌드하자.</strong></p>
+
+<p><strong>로컬서버에서 실행 시켜보자.</strong>
+<code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> 은 로컬에서 자신의 소스코드를 빌드하고 서버 위에 실행시키는 것!</p>
+
+<p>⭐ 빌드는 master에서! 배포는 gh-pages 브랜치에서! ⭐</p>
+
+<p>master에서 수정사항을 변경 후, add, commit, push한 후</p>
+
+<p>깃 배쉬에서 <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> 입력 후 <Enter>.</Enter></p>
+
+<blockquote>
+  <p>만약 오류가 뜬다면, 구글링을 통해 해결하자. 
+(특정 gem파일을 설치해야 한다면 깔아주고, 인코딩 오류가 난다면 vsc 인코딩 설정을 utf-8로 해주자. (폰트를 바꿔 해결할 수도 있다.)</p>
+</blockquote>
+
+<p>잠시 기다리면 로컬 서버 주소가 뜰 것이다. 인터넷 창에 복붙해서 잘 되는지 확인해보자. 문제가 없다면 배포를 하자.</p>
+<blockquote>
+  <p>로컬 서버 주소는 http://127.0.0.1:4000 이런 식으로 뜬다.</p>
+</blockquote>
+
+<blockquote>
+  <p>gh-pages 브랜치에서 빌드하려고 하면 오류가 난다. 꼭 master 브랜치에서 빌드하자.</p>
+</blockquote>
+
+<p><strong>배포해보자.</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">ctrl+c</code>를 눌러서 로컬 서버를 종료시키자.</p>
+
+<p>배포 전에 해야할 사항이 있다.</p>
+
+<p>그것은 바로 <strong>gh-pages 브랜치가 최신 커밋을 바라보게 하는 것</strong>이다.</p>
+
+<p>gh-pages 브랜치에서 master 의 내용을 병합하자.</p>
+
+<p>그런 후, <strong>gh-pages 브랜치에서 배포를 시키자.</strong></p>
+
+<p>⭐ 빌드는 master에서! 배포는 gh-pages 브랜치에서! ⭐</p>
+
+<p>배포하는 방법은 간단하다.</p>
+
+<p>깃 배쉬에서</p>
+
+<p>기본 폴더에 위치한 채로</p>
+
+<p><code class="language-plaintext highlighter-rouge">./bin/deploy</code> 를 입력하고 <Enter>를 누르자.</Enter></p>
+
+<p>조금만 기다리면 ‘Deployed successfully!’ 메시지가 뜰 것이다.</p>
+
+<p>자신의 블로그 페이지를 들어가 보면 잘 동작하는 것을 볼 수 있을 것이다.</p>
+
+<p>이제 블로그에 글을 발행해보자. 블로그의 글은 _post파일에서 관리할 수 있다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>               블로그 글을 발행할 때는 .md파일로 작성해야 함(마크다운 문법) &amp; 파일 이름에는 한글X, 2020-10-13-test.md 이 형식을 지키자. ---
+</code></pre></div></div>
+
+<h6 id="용어-정리">용어 정리</h6>
+<ul>
+  <li>배포 스크립트 실행 : 내 배포 브랜치에 내 소스코드 빌드한거를 올리는 것! 결론적으로 웹사이트에서 보여지게 됨!</li>
+</ul>
+
+<hr />
+
+<p><strong>Troubleshooting</strong></p>
+
+<p>사이트를 GitHub에 푸시 후에도 Jekyll 사이트가 보이지 않는다면 Jekyll을 로컬에서 돌려보면 여러 오류를 잡을 수 있다. 이 기능을 위해 GitHub에서 사용하는 것과 같은 버전의 Jekyll을 사용하길 바란다.</p>
+
+<p>GitHub의 페이지 서버는 Jekyll 버전 0.11.0, Liquid 버전 2.2.2를 사용하고 다음 명령어로 실행을 시킨다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ jekyll --pygments --no-lsi --safe</code></p>
+
+<p>만약 GitHub에 푸시하고도 페이지가 만들어지지 않으면 ‘페이지가 안 보여요’가이드를 보라.</p>
+
+<ul>
+  <li>Jekyll 끄기</li>
+</ul>
+
+<p>Jekyll을 그만 사용하려면 저장소의 루트에 .nojekyll이란 이름의 파일을 만들고 푸시하기만 하면 된다.</p>
+
+<hr />
+
+<h3 id="5-페이지에-커스텀-도메인을-설정해보자">5. 페이지에 커스텀 도메인을 설정해보자.</h3>
+
+<p>GitHub의 페이지에 사용자가 지정하는 도메인 이름을 설정해줄 수 있다.</p>
+
+<p>페이지에 커스컴 도메인을 설정하고 싶다면</p>
+
+<p>아래 두 개 사이트를 가입하자.</p>
+
+<p>[가비아] www.gabia.com</p>
+
+<p>[dnszi] www.dnszi.com</p>
+
+<ul>
+  <li>맨 아래 사이트는 깃허브 블로그에 댓글을 달 수 있는 기능을 추가할 수 있는 사이트이다.</li>
+</ul>
+
+<p>[디스큐스] www.disqus.com</p>
+
+<p>–</p>
+
+<ul>
+  <li>
+    <p>Let’s Go!</p>
+  </li>
+  <li>
+    <p>4-0. 위의 사이트를 모두 가입하시오.</p>
+  </li>
+  <li>
+    <p>4-1. 도메인을 구매하자.</p>
+  </li>
+</ul>
+
+<p>도메인 구입부터(가비아 사이트에서) 찬찬히 해보자.</p>
+
+<p>(도메인은 가비아 말고도 freenom, whois, 카페24 등에서 살 수 있다.) - 이것이 웹호스팅 서비스임.</p>
+
+<ul>
+  <li>DNSZI 사이트는 도메인 네임서버이다.</li>
+</ul>
+
+<blockquote>
+  <p>도메인 네임서버란?</p>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>네임서버(Name server)는 바로 이 도메인 이름과 IP의 상호변환을 가능하게 해주는 서버입니다.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>컴퓨터는 Internet Protocol(IP)라고 불리는 일련의 숫자들을 통해 인터넷 주소를 인식하게 됩니다.
+하지만 이러한 숫자는 사람이 기억하고 사용하기가 어렵기 때문에 단어와 숫자의 조합을 사용하여 사용자들이 보다 쉽게 이용할 수 있는 도메인 이름이 생기게 되었습니다.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>네임서버(Name server)는 바로 이 도메인 이름과 IP의 상호변환을 가능하게 해주는 서버입니다.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>대부분의 도메인 이름은 2개의 네임서버를 갖게 되는데, 이는 두개의 네임서버가 서로 병렬적으로 동작하면서 네임서비스를 보다 안정적으로 연결되도록 합니다. 네임서버는 도메인과 IP를 연결 시켜주는 역할을 합니다.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>원래 모든 인터넷 주소는 위와같이 숫자로 이루어진 IP주소로 되어있습니다. 하지만 그와 같이 숫자로 된 주소는 복잡하고 기억하기가 어렵기 때문에 간단히 표기 할 수 있는 도메인(Domain)이 주소 역할을 할 수 있게끔 규약이 생긴것 이고, 해당 홈페이지의 고유 주소인 IP를 도메인으로 변환, 연결시켜주는 기능이 담긴것이 네임서버 입니다.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>때문에 아무리 도메인을 등록하였다 하더라도 네임서버에 해당 도메인이 어떤 IP로 연결되었는가 하는 정보가 없다면 그 도메인으로 어떤 주소로도 접속이 되지 않으며, [페이지를 표시할 수 없습니다]라는 메시지를 보여주게 됩니다.</p>
+  </blockquote>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td>가비아에 가입.로그인하고 상단의 도메인 메뉴를 눌러 원하는 도메인을 고르자.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>단, 우리는 깃허브 블로그를 만들 것이니 계정이름.원하는 도메인 이런 식으로 검색해야 한다. - 주의하자.</p>
+
+<p>어떤 도메인이 있는지 몰라도 괜찮다. 일단 .com이라도 입력하면 아래에 여러개가 더뜬다.</p>
+
+<p>–</p>
+
+<p>seoyeongo.site   (1년에 1900원)  // 외국에서 돌리는 서버인듯.</p>
+
+<p>seoyeongo.shop  (1년에 500원)</p>
+
+<p>seoyeongo.me (1년에 6000원)   // 포폴 사이트 도메인으로 많이 쓴다.</p>
+
+<p>seoyeongo.io  // 포폴 사이트 도메인으로 많이 쓴다.</p>
+
+<p>seoyeongo.co.kr (1년에 13,500원)</p>
+
+<p>이런 식이다.</p>
+
+<p>–</p>
+
+<p>골랐으면 구매하자. 우측 상단의 [ My 가비아 ] - [ 서비스 관리 ]  순으로 클릭하고</p>
+
+<p>스크롤을 내리면 구매한 도메인이 하나 뜰 것이다. 맨 우측에 보이는 [ 관리툴 ] 을 누르자.</p>
+
+<p>그러면 네임서버가 1차, 2차, 3차, 4차 이런식으로 보일 것이다. (공백 상태)</p>
+
+<p>여기에 우리는 우리의 네임서버를 추가해줄 것이다.</p>
+
+<p>–</p>
+
+<p>네임서버가 어디있느냐, 바로 dnszi 사이트에 있다. 여기에 가입했다면 자신의 네임서버가 생긴다.</p>
+
+<p>2차까지 밖에 안보일테지만 커서를 올리면 5차까지 보일 것이다.</p>
+
+<p>이것을 고대로 가비아 사이트의 네임서버에 복붙해주자.</p>
+
+<p>5차까지 생성해서 추가해주자.</p>
+
+<p>자신이 구매한 도메인을 복붙해서 가지고 오자.</p>
+
+<p>이제 가비아는 닫아도 된다.</p>
+
+<p>–</p>
+
+<ul>
+  <li>4-2. 구매한 도메인의  DNS을 세팅하자.
+이는 네임서버 제공 사이트에서 이루어진다.</li>
+</ul>
+
+<p>모든 도메인 네임서버에서는 구입한 도메인을 특정 IP주소로 연결해 주는 기능이 있다.
+우리는 구매한 도메인을 Github Pages IP로 연결해줘야 한다.</p>
+
+<p>dnszi에 가입.로그인 하면 왼쪽 상단에 보이는 [ 도메인 추가 ] 버튼을 누른다.</p>
+
+<p>가비아에서 구매하고 복사한 도메인 주소를 여기에 붙여넣기 한다. 그후 [ 추가완료 ] 를 누른다.</p>
+
+<p>그러면 도메인 목록에 방금 추가한 도메인 주소가 뜰 것이다. 떠있는 [ 도메인 명 ] 을 클릭하라.</p>
+
+<p>–</p>
+
+<p>호스트IP 관리(A레코드)
+CNAME 관리(별명)
+….
+TTL 관리(Time To Live)
+이런 식으로 떠있을 것이다.</p>
+
+<ul>
+  <li>
+    <ol>
+      <li>A 레코트 설정
+[ 호스트 IP 관리 (A레코드) ] 를 클릭하면,  A레코드/ IP 주소 / DDNS 설정 / 관리메모 이렇게 뜰 것이다.
+| 빈칸 | A레코드| 요런 식으로 되어 있을 건데 빈칸 그대로 냅두고,</li>
+    </ol>
+  </li>
+</ul>
+
+<p>IP 주소는 다음 주소를 차례로 입력하면 된다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>185.199.108.153
+
+185.199.109.153
+
+185.199.110.153
+
+185.199.111.153
+</code></pre></div></div>
+
+<p>ddns 설정은 건들지 말고 (x상태로 두어라)</p>
+
+<p>관리메모는 선택이다. 쓰는 도메인이 여러 개일 때 구별하기 좋을 것 같다.</p>
+
+<p>축하한다. A 레코드 설정이 끝났다.</p>
+
+<p>–</p>
+
+<ul>
+  <li>
+    <ol>
+      <li>상단의 [ CNAME 관리(별명) ] 을 클릭하면,  CNAME값 / 목적지(연결) 도메인 / 관리메모 이렇게 뜰 것이다.</li>
+    </ol>
+  </li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>CNAME 값은</td>
+      <td>[ 빈칸 ].입력한 도메인 주소</td>
+      <td>이렇게 뜰 것인데, 빈칸에 ‘www’를 넣어주자.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>목적지(연결) 도메인에 들어갈 값은 당신이 깃헙 블로그를 만들 원격 저장소의 이름이다.</p>
+
+<p>예를 들면 seoyeongo.github.io 이다. [ CNAME 추가 ]를 눌러 완성하자.</p>
+
+<p>–</p>
+
+<ul>
+  <li>
+    <ol>
+      <li>상단의 [ 고급 관리 ] - [ TTL 관리 ]</li>
+    </ol>
+  </li>
+</ul>
+
+<p>TTL(time to live). 최신 정보를 읽는 시간 간격 정도로 생각하면 될 듯.</p>
+
+<p>기본 값은 7200(2시간)이지만, 앞으로의 작업을 위해서 잠깐 600(10분)으로 바꿔주자.</p>
+
+<p>단, 사이트 연결이 끝나면 다시 기본값 7200(2시간)으로 바꿔 놓아야 한다.</p>
+
+<p>맞게 설정했다면 밑에 다음과 같이 뜰 것이다.</p>
+
+<p>도메인 or 호스트이름	타입</p>
+
+<p>seoyeongo.site	A</p>
+
+<p>www.seoyeongo.site	CNAME</p>
+
+<p>축하한다. 이제 GitHub로 돌아가 보자.</p>
+
+<hr />
+<h3 id="5-github-pages-repository-에서-도메인-설정">5. Github pages repository 에서 도메인 설정</h3>
+
+<p>깃허브 레포 - [ Setting ] 으로 들어가자. 밑으로 내리다보면 [ Github Pages 설정 칸 ] 이 나온다.</p>
+
+<p>[ Custom domain ] 밑의 빈칸에 구매한 도메인 주소를 넣고 [ save ]를 누르자.</p>
+
+<hr />
+<h3 id="6-잘되었는지-확인하기">6. 잘되었는지 확인하기</h3>
+
+<p>이제 확인만 하면 되는데 시간이 10분 정도 걸린다. (TTL 설정한 값). 여유를 갖고 기다리자.</p>
+
+<p>Your site is published at https://seoyeongo.site/</p>
+
+<p>깃허브 레포 설정의 깃허브 페이지에서 이런 문구가 뜨면 성공이다.</p>
+
+<p>접속해보면 연결이 잘 된 것을 알 수 있다.</p>
+
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2020 SeoYeon  Go.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
